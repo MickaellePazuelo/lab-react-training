@@ -9,7 +9,6 @@ function Random(props){
       <h2>{props.max}</h2>
   </Random>
     
-    
   );
 };
 
