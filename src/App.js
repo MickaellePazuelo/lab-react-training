@@ -15,6 +15,7 @@ function App() {
   picture="https://randomuser.me/api/portraits/men/44.jpg"
 />
 </div>
+
   );
 }
 
