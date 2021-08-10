@@ -1,6 +1,3 @@
-import Greetings from "./Components/Greetings";
-
-
 function Greetings(props){
   if(props.lang === "en") {
     return <div>Hello {props.children}</div>;

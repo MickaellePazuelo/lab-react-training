@@ -1,15 +1,10 @@
-import Random from "./Components/Random";
-
+import React from 'react';
 
 function Random(props){
-  
+  const Result = Math.floor(Math.random() * (props.max - props.min)) + props.min
   return (
-  <Random>
-      <h2>{props.min}</h2>
-      <h2>{props.max}</h2>
-  </Random>
-    
-  );
-};
+    <span>Random value between {props.min} and {props.max} = {Result}</span>
+  )
+  }
 
 export default Random;

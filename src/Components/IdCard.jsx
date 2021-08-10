@@ -1,11 +1,11 @@
-import IdCard from "./Components/IdCard";
+
 
 
 const IdCard = (props) => {
   
   return (
   
-      <IdCard>
+     
       <div className="Card-profile">
       <img src={props.picture} alt=""/>
           <h2>Name:{props.firstName}</h2>
@@ -15,7 +15,7 @@ const IdCard = (props) => {
         <h2>Date of Birth:{props.date}</h2>
        
         </div>
-      </IdCard>
+   
   );
 };
 
